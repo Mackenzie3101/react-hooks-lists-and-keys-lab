@@ -1,11 +1,13 @@
+// src/components/Home.js
 import React from "react";
 
-function Home({ color, username, city }) {
+function Home({ name, city, image }) {
   return (
     <div id="home">
-      <h1 style={{ color: color }}>
-        {username} is a Web Developer from {city}
+      <h1>
+        {name} is a developer from {city}
       </h1>
+      <img src={image} alt={name} />
     </div>
   );
 }

@@ -1,30 +1,24 @@
 const user = {
-  name: "Liza",
+  name: "John Doe",
   city: "New York",
-  bio: "I made this!",
-  color: "firebrick",
+  image: "https://via.placeholder.com/150",
+  bio: "Full-stack developer passionate about React and Node.js.",
   links: {
-    github: "https://github.com/liza",
-    linkedin: "https://www.linkedin.com/in/liza/",
+    github: "https://github.com/johndoe",
+    linkedin: "https://linkedin.com/in/johndoe",
   },
   projects: [
     {
       id: 1,
-      name: "Reciplease",
-      about: "A recipe tracking app",
-      technologies: ["Rails", "Bootstrap CSS"],
+      name: "Portfolio Website",
+      about: "A personal site built with React.",
+      technologies: ["React", "CSS", "HTML"],
     },
     {
       id: 2,
-      name: "Kibbles N Bitz",
-      about: "Tinder for dogs",
-      technologies: ["React", "Redux"],
-    },
-    {
-      id: 3,
-      name: "Alienwares",
-      about: "Etsy for aliens",
-      technologies: ["React", "Redux", "Rails"],
+      name: "API Server",
+      about: "Node.js API with Express.",
+      technologies: ["Node", "Express", "MongoDB"],
     },
   ],
 };
